@@ -1,21 +1,15 @@
-setwd("~/WP2/Kopenhagen workshop 2022")
 library(dplyr)
 library(tidyr)
 library(readxl)
 library(lubridate)
 
-d <- read_excel("necropsy.xlsx")
+d <- read_excel("./data/raw/Necropsy.xlsx")
 
 nec.dat <- d %>%
-    select(EntryNumber, 
-           SampleNumber,
-           RegistrationDate,
-           FarmId,
+    select(RegistrationDate,
            Sequence,
            DiagnosisCodesFlat,
-           AnimalType,
-           FlockSize,
-           FarmPostalCode) %>%
+           AnimalType) %>%
     filter(AnimalType %in% c('SS','SSB','SSR','SSS','SST','SSU','SSV'),
            Sequence == 0) %>%
     mutate(M = month(RegistrationDate),

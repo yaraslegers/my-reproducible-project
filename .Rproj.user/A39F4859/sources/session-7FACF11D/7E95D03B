@@ -3,9 +3,9 @@
     "path": "~/workshop-repco/src/ecoli.R",
     "project_path": "src/ecoli.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1983683661",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1685003001495.0,
     "source_on_save": false,
     "relative_order": 2,
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1685003199,
+    "lastKnownWriteTime": 1685006983,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1685003578860,
+    "last_content_update": 1685006983580,
     "read_only": false,
     "read_only_alternatives": []
 }
