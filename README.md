@@ -6,7 +6,8 @@ In this project, I tried to fit a dynamic linear model to the incidence and prev
 
 ## Usage
 
-In the 'src' folder, there are three scripts. ecoli.R is the main script, which sources from the other two. Side note: I didn't make these two scripts myself.
+In the 'src' folder, there are three scripts. Ecoli.R is the main script, which sources from the other two. Side note: I only made the Ecoli.R myself.
+This repository also contains a dummy dataset Necropsy.xlsx, so that you can run the script and produce graphs.
 
 ## Installation Requirements
 
